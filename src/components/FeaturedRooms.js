@@ -12,7 +12,7 @@ export default class FeaturedRooms extends Component {
       return <Room key={room.id} room={room} />;
     });
     return (
-      <section classNale="featured-rooms">
+      <section className="featured-rooms">
         <Title title="featured rooms" />
         <div className="featured-rooms-center">
           {loading ? <Loading /> : rooms}
